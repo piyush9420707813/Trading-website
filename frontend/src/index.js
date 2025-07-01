@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+axios.get(`${process.env.REACT_APP_API_URL}/your-endpoint`);
 
 
 import HomePage from "./landing_page/home/HomePage";
