@@ -26,21 +26,33 @@ const WatchList = () => {
         label: "Price",
         data: watchlist.map((stock) => stock.price),
         backgroundColor: [
-          "rgba(255, 99, 132, 0.5)",
-          "rgba(54, 162, 235, 0.5)",
-          "rgba(255, 206, 86, 0.5)",
-          "rgba(75, 192, 192, 0.5)",
-          "rgba(153, 102, 255, 0.5)",
-          "rgba(255, 159, 64, 0.5)",
-        ],
-        borderColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)",
-        ],
+  "rgba(255, 99, 132, 0.6)",   // Soft Red
+  "rgba(54, 162, 235, 0.6)",   // Soft Blue
+  "rgba(255, 206, 86, 0.6)",   // Soft Yellow
+  "rgba(75, 192, 192, 0.6)",   // Aqua
+  "rgba(153, 102, 255, 0.6)",  // Light Purple
+  "rgba(255, 159, 64, 0.6)",   // Soft Orange
+  "rgba(201, 203, 207, 0.6)",  // Light Grey
+  "rgba(255, 99, 71, 0.6)",    // Tomato
+  "rgba(100, 149, 237, 0.6)",  // Cornflower Blue
+  "rgba(144, 238, 144, 0.6)",  // Light Green
+],
+
+   borderColor: [
+  "rgba(255, 99, 132, 1)",
+  "rgba(0, 191, 255, 1)",
+  "rgba(255, 215, 0, 1)",
+  "rgba(0, 255, 127, 1)",
+  "rgba(138, 43, 226, 1)",
+  "rgba(255, 69, 0, 1)",
+  "rgba(70, 130, 180, 1)",
+  "rgba(255, 20, 147, 1)",
+  "rgba(112, 128, 144, 1)",
+  "rgba(240, 128, 128, 1)",
+]
+
+,
+
         borderWidth: 1,
       },
     ],
